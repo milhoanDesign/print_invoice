@@ -15,7 +15,23 @@ html {
   
   body {
     margin: 3rem auto;
-    width: 50%;
+    width: 70%;
     background-color: #f5f9fa;
   }
+
+  .header {
+    width: 100%;
+    color: #f5f9fa;
+    background-color: darkgray;
+    padding: 1rem;
+  }
+
+  .two-col {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
   
+  li {
+    margin-bottom: 1rem;
+  }
