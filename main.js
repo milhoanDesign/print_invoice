@@ -104,3 +104,6 @@ textarea.onkeyup = () => {
   }
   updateCode();
 };
+
+// Add this line in your JavaScript code to initialize Prism.js
+Prism.highlightAll();
