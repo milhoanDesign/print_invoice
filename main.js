@@ -105,15 +105,8 @@ textarea.onkeyup = () => {
   updateCode();
 };
 
+
 // Add this line in your JavaScript code to initialize Prism.js
 Prism.highlightAll();
-
-
-const list = document.querySelector('.output ul');
-const totalBox = document.querySelector('.output p');
-let total = 0;
-list.innerHTML = '';
-totalBox.textContent = '';
-// number 1
 
 
