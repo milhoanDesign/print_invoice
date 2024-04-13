@@ -30,6 +30,13 @@ html {
     text-align: left;
   }
 
+span {
+    padding: 1px 3px;
+    color: red;
+    background-color: lightgray;
+    border-radius: 2px;
+  }
+
   .header {
     width: 100%;
     color: #f5f9fa;
@@ -52,9 +59,4 @@ html {
   }
   
 
-  .highlight {
-    padding: 3px;
-    color: red;
-    background-color: lightgray;
-    border-radius: 2px;
-  }
+  
