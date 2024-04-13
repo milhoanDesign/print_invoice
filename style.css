@@ -19,19 +19,6 @@ html {
     background-color: #f5f9fa;
   }
 
-  .header {
-    width: 100%;
-    color: #f5f9fa;
-    background-color: darkgray;
-    padding: .3rem;
-  }
-
-  .two-col {
-    display: grid;
-    gap: 4rem;
-    grid-template-columns: 1fr 1fr;
-  }
-  
   li {
     margin-bottom: 1rem;
   }
@@ -41,5 +28,33 @@ html {
     min-width: 100%;
     height: 420px;
     text-align: left;
+  }
 
+  .header {
+    width: 100%;
+    color: #f5f9fa;
+    padding: .3rem;
+        background: linear-gradient(to right, 
+        #ff0000 0%, /* Red */
+        #ff7f00 14.28%, /* Orange */
+        #ffff00 28.57%, /* Yellow */
+        #00ff00 42.85%, /* Green */
+        #0000ff 57.14%, /* Blue */
+        #4b0082 71.42%, /* Indigo */
+        #9400d3 85.71% /* Violet */
+    );
+  }
+
+  .two-col {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+
+  .highlight {
+    padding: 3px;
+    color: red;
+    background-color: lightgray;
+    border-radius: 2px;
   }
